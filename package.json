@@ -1,0 +1,23 @@
+{
+  "name": "knex-rest",
+  "version": "1.0.0",
+  "description": "api with knex",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "warmeta",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "knex": "^0.14.6",
+    "objection": "^1.1.8",
+    "pg": "^7.4.3",
+    "pg-hstore": "^2.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  }
+}
